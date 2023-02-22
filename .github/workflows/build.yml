@@ -35,7 +35,7 @@ jobs:
         boards: [radxa-cm3-sodimm-io]
         build_systems: [rbuild]
         distros: [debian, ubuntu]
-        flavors: [kde, cli, .lxqt, .xfce]
+        flavors: [xfce, cli]
         exclude:
           - build_systems: debos
             distros: debian
