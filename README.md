@@ -1,5 +1,5 @@
 # Radxa ROCK 3 Compute Module SODIMM IO Board
-[![Build](https://github.com/radxa-build/radxa-cm3-sodimm-io/workflows/Build/badge.svg)](https://github.com/radxa-build/radxa-cm3-sodimm-io/actions/workflows/build.yml)
+[![Build](https://github.com/radxa-build/radxa-cm3-sodimm-io/actions/workflows/build.yml/badge.svg)](https://github.com/radxa-build/radxa-cm3-sodimm-io/actions/workflows/build.yml)
 
 ## What is this?
 
