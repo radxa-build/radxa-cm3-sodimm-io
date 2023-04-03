@@ -1,8 +1,6 @@
 name: Build image for Test channel
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 0 1 * *'
 
 jobs:
   prepare_release:
@@ -15,7 +13,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: test-build-${{ github.run_number }}
-          body_path: README.md
+          body: |
+            This is a test build for internal development.
+            Only use when specifically instructed by Radxa support.
           token: ${{ secrets.GITHUB_TOKEN }}
           target_commitish: main
           draft: false
